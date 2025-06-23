@@ -1,0 +1,11 @@
+{
+    "name": "Fullstack",
+    "version": "1.0.0",
+    "scripts": {
+        "dev": "concurrently \"cd backend && yarn dev\" \"cd frontend && yarn dev\"",
+        "build": "cd frontend && yarn build"
+    },
+    "devDependencies": {
+        "concurrently": "^9.2.0"
+    }
+}
